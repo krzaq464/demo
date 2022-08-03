@@ -1,0 +1,97 @@
+body {
+  //background: url("background.png") no-repeat fixed center;
+  //background-size: cover;
+  height: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0px;
+  color: #eeeeee;
+  opacity: 0.7;
+  z-index: -999;
+  width: 100%;
+  height: 100%;
+}
+
+.logo {
+  min-height: 125px;
+  background: url("logo_transparent.png") no-repeat left;
+  background-size: cover;
+  z-index: 1;
+}
+
+.nav {
+  margin-top: 20px;
+}
+.nav>li>a {
+  color: #343434;
+  font-size: 16pt;
+}
+
+.nav>li>a:hover {
+  color: #fefefe;
+  background-color: #464790;
+}
+
+.logo-container h3 {
+  text-align: right;
+}
+
+.row.moved {
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.menu-overlay {
+  background-color: #9293c1;
+  opacity: 0.6;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.container-fluid.menu {
+  margin-top: 1%;
+  position: relative;
+}
+.jumbotron.jumbotron-fluid.logo {
+  position: relative;
+  background: url("logo_transparent.png") no-repeat center;
+  background-size: cover;
+}
+.logo-container {
+  position: absolute;
+}
+.row.content {
+  color: #333333;
+}
+
+.content p {
+  font-size: 17px;
+}
+
+h2 {
+  color: #495ed8;
+}
+
+.card.services {
+  width: 100%;
+  margin: 2px 2px 2px 2px;
+}
+
+#about {
+background-color: #576a7a;
+}
+
+#contact {
+background-color: #8f7d5a;
+}
+
+#menu {
+background-color: #ffffff;
+}
+.menu-sm {
+box-shadow: 10px 10px 10px #888888;
+}
